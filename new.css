@@ -1,0 +1,248 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+    
+}
+
+.head {
+background-color: antiquewhite;
+    padding: 10px 20px;
+    border: white solid;
+    border-radius: 5px;
+}
+.inserch{
+    border: 2px;
+    background-color: rgb(157, 157, 157);
+    color: rgb(151, 152, 151);
+
+}
+.serchbutton{
+    background-color: rgb(110, 98, 106);
+}
+.serch{
+    display: flex;
+    border-radius: 8px;
+    border: 2px rgb(190, 180, 171) solid;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+}
+
+.ule {
+    display: flex;
+    gap: 100px;
+    list-style: none;
+    margin-right: 250px;
+}
+
+.ule a {
+    text-decoration: none;
+    color: black;
+
+}
+
+.sign {
+    margin-left: auto;
+}
+
+.haa {
+    position: relative;
+    margin-bottom: 100px;
+}
+
+.ha {
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+     border-radius: 100px;
+    border : solid gray 2px;
+    box-shadow: 5px 5px 5px;
+      transition: transform 0.8s ease, border-radius 0.5s ease;
+}
+.naaa {
+    position: absolute;
+    top: 70px;
+    left: 40px;
+    color:lightslategray;
+    font-size: 30px;
+    font-family:fantasy;
+}
+
+.mo {
+    position: absolute;
+    top: 130px;
+    left: 40px;
+    color: lightgray;
+    font-family: fantasy;
+}
+
+.bj {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    font-family: cursive;
+font-style: italic;
+margin-top: 20px;
+margin-bottom: -30px;
+color: black;
+}
+# nv{
+    border-radius: 2px;
+    color: #e4e9ee;
+    background-color: black;
+    border-radius: 8px;
+
+}
+h3{
+font-weight: 300;
+font-style: initial;
+font-family: fantasy;
+color: black;
+}
+
+.base {
+   
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+     margin-bottom: 50px;
+}
+
+.boxs {
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px gray;
+    overflow: hidden;
+    padding: 4px;
+    margin-bottom: 15px;
+    transition: 0.7s;
+}
+
+.in {
+    width: 100%;
+    height: 220px;
+    object-fit: fill;
+}
+
+.cal {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 10px;
+}
+
+#so {
+    color: aqua;
+}
+
+.ga {
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    padding: 20px;
+    color: white;
+    margin-top: 200px;
+    
+}
+
+@media(max-width:768px){
+
+    .base{
+        flex-direction:column;
+        border-radius: 15px;
+    }
+}
+@media(max-width:768px){
+
+     .ga{
+        font-size: xx-small;
+        color: blue;
+    }
+}
+@media(max-width:768px){
+
+     .boxs{
+        flex-direction:column;
+    }
+}
+#nv:hover{
+    border-radius: 8px;
+    color: black;
+    background-color: #e4e9ee;
+    box-shadow: 9px;
+}
+.boxs:hover{
+    border-radius: 17px;
+    border : solid gray 4px;
+    box-shadow: 9px 8px 10px;
+
+
+}
+.haa:hover{
+    border-radius: 100px;
+    border : solid rgb(128, 128, 128) 2px;
+    box-shadow: 9px 8px 10px;
+}
+.ha:hover{
+        box-shadow: 0 10px 20px rgba(0,0,0,0.5);
+        
+}
+.haa:hover{
+
+        box-shadow: 0 10px 20px rgba(0,0,0,0.5);
+}
+
+ .footer:hover{
+   
+   border-radius: 17px;
+    font-weight: 200;
+    font-style: oblique;
+    font-size: medium;
+font-family: serif;
+color: lightslategray; 
+}
+ .mk:hover{
+   
+   border-radius: 17px;
+    font-weight: 200;
+    font-style: oblique;
+    font-size: medium;
+font-family: serif;
+color: lightslategray;
+
+}
+ .mh:hover{
+   
+   border-radius: 17px;
+    font-weight: 200;
+    font-style: oblique;
+    font-size: medium;
+font-family: serif;
+color: lightslategray;}
+
+ .mj:hover{
+    border-radius: 17px;
+    font-weight: 200;
+    font-style: oblique;
+    font-size: medium;
+font-family: serif;
+color: lightslategray;
+}
+.cart-btn {
+    margin: 10px;
+    padding: 8px;
+    width: 90%;
+    border: none;
+    background: black;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;}
+    .cart-btn:hover {
+    background: #e4e9ee;
+    color: black;}
+    
+    .cart-btn:hover {
+    background: #e4e9ee;
+    color: black;}
